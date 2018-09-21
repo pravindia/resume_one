@@ -1,0 +1,185 @@
+html{font-size: 10px;}
+body{
+   font-family: 'Lato', sans-serif;
+   /* font-family: 'Ubuntu', sans-serif; */
+   padding: 10px;
+   margin: 0px;
+   height: 100%;
+}
+a,a:link ,a:hover {
+   text-emphasis: none;
+   text-decoration: none;
+   color: #000;
+}
+
+.container-fluid{
+   background-attachment: fixed;
+   height: 95vh;
+   /* background-image: linear-gradient(to right,#3336f3b2,rgba(255, 255, 255, 0.5)) , url("../img/409143.jpg"); */
+   background-image: linear-gradient(to right,#3336f3b2,rgba(255, 255, 255, 0.5)) , url("../img/bg3.jpg");
+   background-size: cover;
+   background-position: center;
+   -webkit-clip-path: polygon(10% 0, 100% 0, 100% 90%, 90% 100%, 0 100%, 0% 10%);
+   clip-path: polygon(10% 0, 100% 0, 100% 90%, 90% 100%, 0 100%, 0% 10%);
+   position: relative;
+   padding: 10rem;
+   animation-name: back;
+   animation-duration: 2s;
+}
+@keyframes back{
+   from{
+      opacity: 0.2;
+   }
+   to{
+      opacity: 1;
+   }
+}
+
+.card{
+   margin:0 auto;
+   position: absolute;
+   text-align: center;
+   min-height: 15rem;
+   max-width: 60rem;
+   border-radius: 1rem;
+}
+
+.card .dp{
+   margin: -5rem auto;
+   height: 10rem;
+   width: 10rem;
+   border-radius: 10rem;
+}
+.card div .dp{
+   background-color: #fff;
+   margin: -5rem auto;
+   height: 10rem;
+   width: 10rem;
+   border-radius: 10rem;
+}
+
+.card h1{
+   font-family: 'Ubuntu', sans-serif;
+   letter-spacing: 0.5rem;
+   margin :5rem 0 0 0;
+   display: block;
+}
+.card h2{
+   font-weight: 300;
+}
+
+.card .small-logo {
+   font-size: 3.5rem;  
+   border-radius: 10rem;
+   border: 2px solid #777;
+   padding: 0.5rem;
+   margin: 1rem;
+   cursor: pointer;
+   
+}
+.card .small-logo:hover{
+   border: 2px solid #000;
+   background-color: #000; 
+   transition: ease-in .4s;
+}
+.card .blog-icon  {
+   border: 2px solid #b600b6;
+   color:#000;
+}
+.card .blog-icon:hover,
+.blog-back {
+   color:#b600b6;
+}
+.card .skills-icon  {
+   border: 2px solid #ea4435;
+}
+.card .skills-icon:hover, 
+.skills-back {
+   color: #ea4435;
+}
+.card .edu-icon  {
+   border: 2px solid #00F161;
+}
+.card .edu-icon:hover,
+.edu-back{
+   color:#00F161;
+}
+
+.card .work-icon {
+   border: 2px solid rgb(255, 196, 0);
+}
+.card .work-icon:hover,
+.work-back {
+   color:rgb(255, 196, 0);
+}
+.card .contact-icon  {
+   border: 2px solid #FF047C;
+   color: #000;
+}
+.card .contact-icon:hover ,.contact-back{
+   color:#FF047C
+}
+.card .logo-back{
+   font-size: 3.5rem;  
+   border-radius: 10rem;
+   border: 2px solid #777;
+   padding: 3rem;
+   margin: 1rem;
+
+}
+.logo-back{
+   background-color: #fff;
+   font-style: italic;
+   opacity: 1;
+   display: block;
+   width: 100%;
+   height: auto;
+   transition: .5s ease;
+   backface-visibility: hidden;
+}
+.big-logo{
+   background-color: #fff;
+   border-radius: 10rem;
+   position: relative;
+}
+.big-logo:hover  .logo-back{ 
+   background-color:  rgba(200, 200, 200,0.8);
+   color : rgba(255, 196, 0,0.1);
+   border-color: #777;
+}
+.big-logo:hover .middle-back {
+   border: 1px;
+   border-radius: 5rem;
+   opacity: 1;
+}
+
+.middle-back{
+   transition: .5s ease;
+   opacity: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   padding: 5rem;
+   margin-top: -0.5rem;
+   cursor: pointer;
+
+}
+.card .back-btn{
+   font-size: 5rem;  
+   border-radius: 10rem;
+   border: 0;
+
+}
+.thin{
+   font-weight: 300;
+   background-color: #000;
+   color: #fff;
+   padding: 3px;
+   margin:20px;
+   display: inline;
+}
+.h3-sub{
+   margin: 20px;
+}
