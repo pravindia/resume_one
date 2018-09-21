@@ -6,12 +6,17 @@ body{
    margin: 0px;
    height: 100%;
 }
-a,a:link ,a:hover {
+a {
    text-emphasis: none;
    text-decoration: none;
    color: #000;
+   font-size:1.6rem;
 }
 
+a:hover{
+   color: blueviolet;
+   text-decoration: none;
+}
 .container-fluid{
    background-attachment: fixed;
    height: 95vh;
